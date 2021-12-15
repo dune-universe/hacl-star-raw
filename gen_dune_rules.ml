@@ -123,7 +123,7 @@ module Lib = struct
               [ atoms ([ "alias"; "foreign_headers" ] @ local_name) ]
           ; field_s "flags" [ atoms [ ":include"; "dune.cflags" ] ]
           ; field "include_dirs"
-              [ "../../kremlin/include"; "../../kremlin/kremlib/dist/minimal" ]
+              [ "."; "./kremlin/include"; "./kremlin/kremlib/dist/minimal" ]
           ]
       ]
 
