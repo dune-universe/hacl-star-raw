@@ -21,7 +21,7 @@
 # - libevercrypt.a
 
 # By default, this Makefile relies on the local checkout of kremlib
-KREMLIN_HOME ?= ../kremlin
+KREMLIN_HOME ?= ./lib/kremlin
 
 ifeq (,$(wildcard $(KREMLIN_HOME)/include/kremlib.h))
 	$(error Incorrect KREMLIN_HOME)
