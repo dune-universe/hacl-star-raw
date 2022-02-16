@@ -1,0 +1,17 @@
+(library
+ (name        hacl_star)
+ (public_name hacl-star)
+ (libraries hacl-star-raw
+            zarith)
+ (preprocessor_deps config.h)
+ (preprocess (action (run %{bin:cppo} %{input-file})))
+ (flags (:standard -warn-error -3)))
+
+(documentation
+ (package hacl-star)
+  (mld_files index))
+
+(rule
+ (targets config.h)
+ (action
+  (copy %{lib:hacl-star-raw:config.h} config.h)))
