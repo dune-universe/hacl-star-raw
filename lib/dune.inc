@@ -215,7 +215,7 @@
   (names EverCrypt_AEAD_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets EverCrypt_AEAD_c_stubs.c EverCrypt_AEAD_stubs.ml)
@@ -244,7 +244,7 @@
   (names EverCrypt_AutoConfig2_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets EverCrypt_AutoConfig2_c_stubs.c EverCrypt_AutoConfig2_stubs.ml)
@@ -279,7 +279,7 @@
   (names EverCrypt_CTR_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets EverCrypt_CTR_c_stubs.c EverCrypt_CTR_stubs.ml)
@@ -308,7 +308,7 @@
   (names EverCrypt_Chacha20Poly1305_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -339,7 +339,7 @@
   (names EverCrypt_Cipher_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets EverCrypt_Cipher_c_stubs.c EverCrypt_Cipher_stubs.ml)
@@ -368,7 +368,7 @@
   (names EverCrypt_Curve25519_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets EverCrypt_Curve25519_c_stubs.c EverCrypt_Curve25519_stubs.ml)
@@ -403,7 +403,7 @@
   (names EverCrypt_DRBG_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets EverCrypt_DRBG_c_stubs.c EverCrypt_DRBG_stubs.ml)
@@ -432,7 +432,7 @@
   (names EverCrypt_Ed25519_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets EverCrypt_Ed25519_c_stubs.c EverCrypt_Ed25519_stubs.ml)
@@ -461,7 +461,7 @@
   (names EverCrypt_Error_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets EverCrypt_Error_c_stubs.c EverCrypt_Error_stubs.ml)
@@ -494,7 +494,7 @@
   (names EverCrypt_HKDF_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets EverCrypt_HKDF_c_stubs.c EverCrypt_HKDF_stubs.ml)
@@ -527,7 +527,7 @@
   (names EverCrypt_HMAC_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets EverCrypt_HMAC_c_stubs.c EverCrypt_HMAC_stubs.ml)
@@ -560,7 +560,7 @@
   (names EverCrypt_Hash_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets EverCrypt_Hash_c_stubs.c EverCrypt_Hash_stubs.ml)
@@ -589,7 +589,7 @@
   (names EverCrypt_Poly1305_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets EverCrypt_Poly1305_c_stubs.c EverCrypt_Poly1305_stubs.ml)
@@ -618,7 +618,7 @@
   (names EverCrypt_StaticConfig_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets EverCrypt_StaticConfig_c_stubs.c EverCrypt_StaticConfig_stubs.ml)
@@ -647,7 +647,7 @@
   (names EverCrypt_Vale_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets EverCrypt_Vale_c_stubs.c EverCrypt_Vale_stubs.ml)
@@ -676,7 +676,7 @@
   (names Hacl_Bignum_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Bignum_c_stubs.c Hacl_Bignum_stubs.ml)
@@ -705,7 +705,7 @@
   (names Hacl_Bignum25519_51_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Bignum25519_51_c_stubs.c Hacl_Bignum25519_51_stubs.ml)
@@ -734,7 +734,7 @@
   (names Hacl_Bignum256_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Bignum256_c_stubs.c Hacl_Bignum256_stubs.ml)
@@ -767,7 +767,7 @@
   (names Hacl_Bignum256_32_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Bignum256_32_c_stubs.c Hacl_Bignum256_32_stubs.ml)
@@ -800,7 +800,7 @@
   (names Hacl_Bignum32_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Bignum32_c_stubs.c Hacl_Bignum32_stubs.ml)
@@ -833,7 +833,7 @@
   (names Hacl_Bignum4096_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Bignum4096_c_stubs.c Hacl_Bignum4096_stubs.ml)
@@ -866,7 +866,7 @@
   (names Hacl_Bignum4096_32_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Bignum4096_32_c_stubs.c Hacl_Bignum4096_32_stubs.ml)
@@ -899,7 +899,7 @@
   (names Hacl_Bignum64_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Bignum64_c_stubs.c Hacl_Bignum64_stubs.ml)
@@ -928,7 +928,7 @@
   (names Hacl_Bignum_Base_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Bignum_Base_c_stubs.c Hacl_Bignum_Base_stubs.ml)
@@ -957,7 +957,7 @@
   (names Hacl_Chacha20_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Chacha20_c_stubs.c Hacl_Chacha20_stubs.ml)
@@ -986,7 +986,7 @@
   (names Hacl_Chacha20Poly1305_128_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -1017,7 +1017,7 @@
   (names Hacl_Chacha20Poly1305_256_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -1048,7 +1048,7 @@
   (names Hacl_Chacha20Poly1305_32_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -1079,7 +1079,7 @@
   (names Hacl_Chacha20_Vec128_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Chacha20_Vec128_c_stubs.c Hacl_Chacha20_Vec128_stubs.ml)
@@ -1108,7 +1108,7 @@
   (names Hacl_Chacha20_Vec256_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Chacha20_Vec256_c_stubs.c Hacl_Chacha20_Vec256_stubs.ml)
@@ -1137,7 +1137,7 @@
   (names Hacl_Chacha20_Vec32_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Chacha20_Vec32_c_stubs.c Hacl_Chacha20_Vec32_stubs.ml)
@@ -1166,7 +1166,7 @@
   (names Hacl_Curve25519_51_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Curve25519_51_c_stubs.c Hacl_Curve25519_51_stubs.ml)
@@ -1195,7 +1195,7 @@
   (names Hacl_Curve25519_64_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Curve25519_64_c_stubs.c Hacl_Curve25519_64_stubs.ml)
@@ -1224,7 +1224,7 @@
   (names Hacl_Curve25519_64_Slow_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Curve25519_64_Slow_c_stubs.c Hacl_Curve25519_64_Slow_stubs.ml)
@@ -1253,7 +1253,7 @@
   (names Hacl_EC_Ed25519_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_EC_Ed25519_c_stubs.c Hacl_EC_Ed25519_stubs.ml)
@@ -1282,7 +1282,7 @@
   (names Hacl_Ed25519_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Ed25519_c_stubs.c Hacl_Ed25519_stubs.ml)
@@ -1315,7 +1315,7 @@
   (names Hacl_FFDHE_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_FFDHE_c_stubs.c Hacl_FFDHE_stubs.ml)
@@ -1344,7 +1344,7 @@
   (names Hacl_Frodo1344_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Frodo1344_c_stubs.c Hacl_Frodo1344_stubs.ml)
@@ -1373,7 +1373,7 @@
   (names Hacl_Frodo64_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Frodo64_c_stubs.c Hacl_Frodo64_stubs.ml)
@@ -1402,7 +1402,7 @@
   (names Hacl_Frodo640_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Frodo640_c_stubs.c Hacl_Frodo640_stubs.ml)
@@ -1431,7 +1431,7 @@
   (names Hacl_Frodo976_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Frodo976_c_stubs.c Hacl_Frodo976_stubs.ml)
@@ -1464,7 +1464,7 @@
   (names Hacl_Frodo_KEM_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Frodo_KEM_c_stubs.c Hacl_Frodo_KEM_stubs.ml)
@@ -1493,7 +1493,7 @@
   (names Hacl_GenericField32_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_GenericField32_c_stubs.c Hacl_GenericField32_stubs.ml)
@@ -1526,7 +1526,7 @@
   (names Hacl_GenericField64_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_GenericField64_c_stubs.c Hacl_GenericField64_stubs.ml)
@@ -1555,7 +1555,7 @@
   (names Hacl_HKDF_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_HKDF_c_stubs.c Hacl_HKDF_stubs.ml)
@@ -1584,7 +1584,7 @@
   (names Hacl_HKDF_Blake2b_256_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_HKDF_Blake2b_256_c_stubs.c Hacl_HKDF_Blake2b_256_stubs.ml)
@@ -1613,7 +1613,7 @@
   (names Hacl_HKDF_Blake2s_128_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_HKDF_Blake2s_128_c_stubs.c Hacl_HKDF_Blake2s_128_stubs.ml)
@@ -1642,7 +1642,7 @@
   (names Hacl_HMAC_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_HMAC_c_stubs.c Hacl_HMAC_stubs.ml)
@@ -1671,7 +1671,7 @@
   (names Hacl_HMAC_Blake2b_256_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_HMAC_Blake2b_256_c_stubs.c Hacl_HMAC_Blake2b_256_stubs.ml)
@@ -1700,7 +1700,7 @@
   (names Hacl_HMAC_Blake2s_128_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_HMAC_Blake2s_128_c_stubs.c Hacl_HMAC_Blake2s_128_stubs.ml)
@@ -1733,7 +1733,7 @@
   (names Hacl_HMAC_DRBG_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_HMAC_DRBG_c_stubs.c Hacl_HMAC_DRBG_stubs.ml)
@@ -1762,7 +1762,7 @@
   (names Hacl_HPKE_Curve51_CP128_SHA256_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -1793,7 +1793,7 @@
   (names Hacl_HPKE_Curve51_CP128_SHA512_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -1824,7 +1824,7 @@
   (names Hacl_HPKE_Curve51_CP256_SHA256_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -1855,7 +1855,7 @@
   (names Hacl_HPKE_Curve51_CP256_SHA512_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -1886,7 +1886,7 @@
   (names Hacl_HPKE_Curve51_CP32_SHA256_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -1917,7 +1917,7 @@
   (names Hacl_HPKE_Curve51_CP32_SHA512_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -1948,7 +1948,7 @@
   (names Hacl_HPKE_Curve64_CP128_SHA256_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -1979,7 +1979,7 @@
   (names Hacl_HPKE_Curve64_CP128_SHA512_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -2010,7 +2010,7 @@
   (names Hacl_HPKE_Curve64_CP256_SHA256_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -2041,7 +2041,7 @@
   (names Hacl_HPKE_Curve64_CP256_SHA512_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -2072,7 +2072,7 @@
   (names Hacl_HPKE_Curve64_CP32_SHA256_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -2103,7 +2103,7 @@
   (names Hacl_HPKE_Curve64_CP32_SHA512_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -2134,7 +2134,7 @@
   (names Hacl_HPKE_P256_CP128_SHA256_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -2165,7 +2165,7 @@
   (names Hacl_HPKE_P256_CP256_SHA256_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -2196,7 +2196,7 @@
   (names Hacl_HPKE_P256_CP32_SHA256_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -2231,7 +2231,7 @@
   (names Hacl_Hash_Base_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Hash_Base_c_stubs.c Hacl_Hash_Base_stubs.ml)
@@ -2260,7 +2260,7 @@
   (names Hacl_Hash_Blake2_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Hash_Blake2_c_stubs.c Hacl_Hash_Blake2_stubs.ml)
@@ -2289,7 +2289,7 @@
   (names Hacl_Hash_Blake2b_256_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Hash_Blake2b_256_c_stubs.c Hacl_Hash_Blake2b_256_stubs.ml)
@@ -2318,7 +2318,7 @@
   (names Hacl_Hash_Blake2s_128_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Hash_Blake2s_128_c_stubs.c Hacl_Hash_Blake2s_128_stubs.ml)
@@ -2347,7 +2347,7 @@
   (names Hacl_Hash_MD5_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Hash_MD5_c_stubs.c Hacl_Hash_MD5_stubs.ml)
@@ -2376,7 +2376,7 @@
   (names Hacl_Hash_SHA1_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Hash_SHA1_c_stubs.c Hacl_Hash_SHA1_stubs.ml)
@@ -2405,7 +2405,7 @@
   (names Hacl_Hash_SHA2_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Hash_SHA2_c_stubs.c Hacl_Hash_SHA2_stubs.ml)
@@ -2434,7 +2434,7 @@
   (names Hacl_IntTypes_Intrinsics_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -2465,7 +2465,7 @@
   (names Hacl_NaCl_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_NaCl_c_stubs.c Hacl_NaCl_stubs.ml)
@@ -2494,7 +2494,7 @@
   (names Hacl_P256_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_P256_c_stubs.c Hacl_P256_stubs.ml)
@@ -2523,7 +2523,7 @@
   (names Hacl_Poly1305_128_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Poly1305_128_c_stubs.c Hacl_Poly1305_128_stubs.ml)
@@ -2552,7 +2552,7 @@
   (names Hacl_Poly1305_256_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Poly1305_256_c_stubs.c Hacl_Poly1305_256_stubs.ml)
@@ -2581,7 +2581,7 @@
   (names Hacl_Poly1305_32_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Poly1305_32_c_stubs.c Hacl_Poly1305_32_stubs.ml)
@@ -2614,7 +2614,7 @@
   (names Hacl_RSAPSS_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_RSAPSS_c_stubs.c Hacl_RSAPSS_stubs.ml)
@@ -2643,7 +2643,7 @@
   (names Hacl_SHA3_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_SHA3_c_stubs.c Hacl_SHA3_stubs.ml)
@@ -2672,7 +2672,7 @@
   (names Hacl_Salsa20_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Salsa20_c_stubs.c Hacl_Salsa20_stubs.ml)
@@ -2701,7 +2701,7 @@
   (names Hacl_Spec_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Spec_c_stubs.c Hacl_Spec_stubs.ml)
@@ -2736,7 +2736,7 @@
   (names Hacl_Streaming_Blake2_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Streaming_Blake2_c_stubs.c Hacl_Streaming_Blake2_stubs.ml)
@@ -2769,7 +2769,7 @@
   (names Hacl_Streaming_MD5_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Streaming_MD5_c_stubs.c Hacl_Streaming_MD5_stubs.ml)
@@ -2798,7 +2798,7 @@
   (names Hacl_Streaming_Poly1305_32_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets
@@ -2833,7 +2833,7 @@
   (names Hacl_Streaming_SHA1_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Streaming_SHA1_c_stubs.c Hacl_Streaming_SHA1_stubs.ml)
@@ -2862,7 +2862,7 @@
   (names Hacl_Streaming_SHA2_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Hacl_Streaming_SHA2_c_stubs.c Hacl_Streaming_SHA2_stubs.ml)
@@ -2891,7 +2891,7 @@
   (names Lib_RandomBuffer_System_c_stubs)
   (extra_deps (alias foreign_headers))
   (flags (:include dune.cflags))
-  (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
+  (include_dirs . ./kremlin/include ./kremlin/kremlib/dist/minimal)))
 
 (rule
  (targets Lib_RandomBuffer_System_c_stubs.c Lib_RandomBuffer_System_stubs.ml)
